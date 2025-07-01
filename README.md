@@ -3,9 +3,6 @@
 Transform your Ubuntu CLI login experience with beautiful, customisable welcome screens!
 
 ![Ubuntu Fancy Welcome](https://img.shields.io/badge/Ubuntu-Fancy%20Welcome-orange?style=for-the-badge&logo=ubuntu)
-![Version](https://img.shields.io/badge/Version-1.0-blue?style=for-the-badge)
-![Licence](https://img.shields.io/badge/Licence-MIT-green?style=for-the-badge)
-
 Created by: **SteffMet** | GitHub: [SteffMet](https://github.com/SteffMet)
 
 ## 🌟 Features
@@ -16,7 +13,6 @@ Created by: **SteffMet** | GitHub: [SteffMet](https://github.com/SteffMet)
 - **Easy Configuration**: Interactive configuration tools and JSON-based settings
 - **Custom Templates**: Create your own welcome screen templates with full scripting support
 - **Developer Features**: Git status, TODO lists, and coding shortcuts (developer template)
-- **British English**: All documentation and interface text in proper British English
 
 ## 🚀 Quick Installation
 
@@ -228,28 +224,7 @@ Pre-defined colour variables:
 - System templates: `/opt/ubuntu-welcome-fancy/templates/`
 - User templates: `~/.config/ubuntu-welcome-fancy/templates/`
 
-## 📁 File Structure
-
-```
-/opt/ubuntu-welcome-fancy/          # Main installation directory
-├── scripts/
-│   ├── welcome-display.sh          # Main display script
-│   ├── welcome-config.sh           # Configuration manager
-│   └── template-manager.sh         # Template manager
-└── templates/                      # System templates
-    ├── retro.sh
-    ├── elegant.sh
-    └── developer.sh
-
-/etc/ubuntu-welcome-fancy/          # System configuration
-└── config.json                     # Global settings
-
-~/.config/ubuntu-welcome-fancy/     # User configuration
-├── user-config.json               # User settings
-├── templates/                     # Custom templates
-└── todo.txt                      # TODO list (developer template)
-```
-
+--
 ## 🔧 Advanced Configuration
 
 ### Global Configuration
@@ -293,7 +268,7 @@ To permanently disable for a user:
 # Comment out the welcome screen section in ~/.bashrc
 nano ~/.bashrc
 ```
-
+--
 ## 🐛 Troubleshooting
 
 ### Welcome Screen Not Appearing
@@ -339,74 +314,3 @@ nano ~/.bashrc
    bash ~/.config/ubuntu-welcome-fancy/templates/your-template.sh
    ```
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to:
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-### Development Guidelines
-- Follow bash best practices
-- Use British English spelling and terminology
-- Test on multiple Ubuntu versions
-- Document any new features
-- Maintain backwards compatibility
-
-## 📄 Licence
-
-This project is licensed under the MIT Licence - see below for details:
-
-```
-MIT Licence
-
-Copyright (c) 2025 SteffMet
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicence, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
-## 🙏 Acknowledgements
-
-- Ubuntu community for the inspiration
-- ASCII art generators for template designs
-- Open source contributors who make projects like this possible
-
-## 📞 Support
-
-- **GitHub Issues**: [Report bugs or request features](https://github.com/SteffMet/ubuntu-welcome-fancy/issues)
-- **GitHub Discussions**: [Community support and ideas](https://github.com/SteffMet/ubuntu-welcome-fancy/discussions)
-
-## 🔄 Updates
-
-Check for updates by pulling the latest version from GitHub:
-
-```bash
-cd ubuntu-welcome-fancy
-git pull origin main
-./install-welcome.sh
-```
-
----
-
-**Enjoy your beautiful new Ubuntu welcome experience!** 🎉
-
-Made with ❤️ by [SteffMet](https://github.com/SteffMet)

@@ -18,8 +18,8 @@ Created by: **SteffMet** | GitHub: [SteffMet](https://github.com/SteffMet)
 
 ```bash
 # Clone the repository
-git clone https://github.com/SteffMet/ubuntu-welcome-fancy.git
-cd ubuntu-welcome-fancy
+git clone https://github.com/SteffMet/UbuntuWelcomeFancy.git
+cd UbuntuWelcomeFancy
 
 # Run the installer
 chmod +x install-welcome.sh
